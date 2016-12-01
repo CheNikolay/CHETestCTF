@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5395EA251DF0361F002487BA /* TestCTF.h in Headers */ = {isa = PBXBuildFile; fileRef = 5395EA231DF0361F002487BA /* TestCTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5395EA2D1DF0364D002487BA /* TCTFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5395EA2B1DF0364D002487BA /* TCTFObject.h */; };
+		5395EA2D1DF0364D002487BA /* TCTFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5395EA2B1DF0364D002487BA /* TCTFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5395EA2E1DF0364D002487BA /* TCTFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5395EA2C1DF0364D002487BA /* TCTFObject.m */; };
 /* End PBXBuildFile section */
 

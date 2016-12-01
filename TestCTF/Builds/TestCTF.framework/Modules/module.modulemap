@@ -1,0 +1,6 @@
+framework module TestCTF {
+  umbrella header "TestCTF.h"
+
+  export *
+  module * { export * }
+}
