@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
 
   s.source       = { :git => "https://github.com/CheNikolay/CHETestCTF.git", :tag => s.version.to_s}
-  s.source_files  = "TestCTF/TestCTF/Build/**.framework"
+  s.vendored_frameworks  = "TestCTF/Build/TestCTF.framework"
   s.module_name = 'TestCTF'
   #s.dependency 'AFNetworking-JSONModel', :git => 'https://github.com/IGZjuantrias/AFNetworking-JSONModel.git'
 end
