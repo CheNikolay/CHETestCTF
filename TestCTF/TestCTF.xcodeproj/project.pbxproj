@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5359C4CB1DF13EA600AB9549 /* btn_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5359C4CA1DF13EA600AB9549 /* btn_menu@2x.png */; };
+		5359C4CE1DF13FAA00AB9549 /* TestCTFResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5359C4C41DF13E7500AB9549 /* TestCTFResources.bundle */; };
 		5395EA251DF0361F002487BA /* TestCTF.h in Headers */ = {isa = PBXBuildFile; fileRef = 5395EA231DF0361F002487BA /* TestCTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5395EA2D1DF0364D002487BA /* TCTFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5395EA2B1DF0364D002487BA /* TCTFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5395EA2E1DF0364D002487BA /* TCTFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5395EA2C1DF0364D002487BA /* TCTFObject.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5359C4CC1DF13F3000AB9549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5395EA171DF0361F002487BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5359C4C31DF13E7500AB9549;
+			remoteInfo = TestCTFResources;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5359C4C41DF13E7500AB9549 /* TestCTFResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCTFResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5359C4C61DF13E7500AB9549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5359C4CA1DF13EA600AB9549 /* btn_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_menu@2x.png"; sourceTree = "<group>"; };
 		5395EA201DF0361F002487BA /* TestCTF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCTF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5395EA231DF0361F002487BA /* TestCTF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCTF.h; sourceTree = "<group>"; };
 		5395EA241DF0361F002487BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -21,6 +36,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5359C4C11DF13E7500AB9549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5395EA1C1DF0361F002487BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -31,10 +53,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5359C4C51DF13E7500AB9549 /* TestCTFResources */ = {
+			isa = PBXGroup;
+			children = (
+				5359C4CA1DF13EA600AB9549 /* btn_menu@2x.png */,
+				5359C4C61DF13E7500AB9549 /* Info.plist */,
+			);
+			path = TestCTFResources;
+			sourceTree = "<group>";
+		};
 		5395EA161DF0361F002487BA = {
 			isa = PBXGroup;
 			children = (
 				5395EA221DF0361F002487BA /* TestCTF */,
+				5359C4C51DF13E7500AB9549 /* TestCTFResources */,
 				5395EA211DF0361F002487BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				5395EA201DF0361F002487BA /* TestCTF.framework */,
+				5359C4C41DF13E7500AB9549 /* TestCTFResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +106,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5359C4C31DF13E7500AB9549 /* TestCTFResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5359C4C91DF13E7500AB9549 /* Build configuration list for PBXNativeTarget "TestCTFResources" */;
+			buildPhases = (
+				5359C4C01DF13E7500AB9549 /* Sources */,
+				5359C4C11DF13E7500AB9549 /* Frameworks */,
+				5359C4C21DF13E7500AB9549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCTFResources;
+			productName = TestCTFResources;
+			productReference = 5359C4C41DF13E7500AB9549 /* TestCTFResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		5395EA1F1DF0361F002487BA /* TestCTF */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5395EA281DF0361F002487BA /* Build configuration list for PBXNativeTarget "TestCTF" */;
@@ -85,6 +135,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5359C4CD1DF13F3000AB9549 /* PBXTargetDependency */,
 			);
 			name = TestCTF;
 			productName = TestCTF;
@@ -100,6 +151,10 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = DataEast;
 				TargetAttributes = {
+					5359C4C31DF13E7500AB9549 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 					5395EA1F1DF0361F002487BA = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
@@ -118,22 +173,39 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				5359C4C31DF13E7500AB9549 /* TestCTFResources */,
 				5395EA1F1DF0361F002487BA /* TestCTF */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5359C4C21DF13E7500AB9549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5359C4CB1DF13EA600AB9549 /* btn_menu@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5395EA1E1DF0361F002487BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5359C4CE1DF13FAA00AB9549 /* TestCTFResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5359C4C01DF13E7500AB9549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5395EA1B1DF0361F002487BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,7 +216,50 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5359C4CD1DF13F3000AB9549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5359C4C31DF13E7500AB9549 /* TestCTFResources */;
+			targetProxy = 5359C4CC1DF13F3000AB9549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5359C4C71DF13E7500AB9549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TestCTFResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataeast.TestCTFResources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5359C4C81DF13E7500AB9549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TestCTFResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataeast.TestCTFResources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5395EA261DF0361F002487BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -278,6 +393,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5359C4C91DF13E7500AB9549 /* Build configuration list for PBXNativeTarget "TestCTFResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5359C4C71DF13E7500AB9549 /* Debug */,
+				5359C4C81DF13E7500AB9549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5395EA1A1DF0361F002487BA /* Build configuration list for PBXProject "TestCTF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -294,6 +417,7 @@
 				5395EA2A1DF0361F002487BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
