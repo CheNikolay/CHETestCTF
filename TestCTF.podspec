@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
 
 
   s.source       = { :git => "https://github.com/CheNikolay/CHETestCTF.git", :tag => s.version.to_s}
-  s.vendored_frameworks  = 'TestCTF/Builds/TestCTF.framework'
+  s.vendored_frameworks  = 'TestCTF/Builds folder/TestCTF.framework'
   s.resource = 'TestCTF/Builds/TestCTF.framework/TestCTFResources.bundle'
 end
